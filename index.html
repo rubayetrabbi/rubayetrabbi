@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rubayet Rabbi</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="shortcut icon" href="assets/about-pic.jpg">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Rubayet Rabbi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contents">Contents</a></li>
+          <li><a href="#stories">Stories</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Rubayet Rabbi</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#contents" onclick="toggleMenu()">Contents</a></li>
+          <li><a href="#stories" onclick="toggleMenu()">Stories</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.jpeg" alt="Rubayet Rabbi profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Rubayet Rabbi</h1>
+        <p class="section__text__p2">Content Creator</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/youtube.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://www.youtube.com/@RubayetRabbi'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3+ years <br />Content Creation</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Arts in<br />Political Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi there, I'm an enthusiastic content creator with three 
+              years of diverse experience in the creative industry. I have written 
+              more than a hundred intriguing short stories that cover a wide range of 
+              genres and topics as I have developed my writing abilities throughout the 
+              course of my journey. My passion for sharing engaging and motivating stories 
+              stems from my desire to connect with listeners. Accompany me as I delve 
+              deeper into the boundless potential of creativity and communication.
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="contents">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Contents</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/content-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">দাসী থেকে রাণী । Harem । Ottoman Empire </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=jir7EPcICqc&t=20s'"
+              >
+                YouTube
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/content-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">নোবেলজয়ীদের কত টাকা দেওয়া হয়? Nobel Prize</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=P8K3GSdSQe8&t=27s'"
+              >
+                YouTube
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/content-3.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">রানা প্লাজা ধসের কারণ ৷ The tragedy of Rana Plaza</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=QnCjt66K8ng'"
+              >
+                YouTube
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <section id="stories">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Stories</h1>
+      <div class="section">
+        <div class="card">
+          <div class="image-section img-one"></div>
+          <div class="content">
+            <h2>পুরাতন ডায়েরি</h2>
+            <p>'আমি কি তোমার পাশে একটু বসতে পারি?' কথাটা শুনে আমি বাঁ দিকে তাকিয়ে দেখি ৭৫-৮০ বছরের একজন বৃদ্ধ। বৃদ্ধ হলেও তাকে খুব সুন্দর'ই লাগছিল।  পোশাক-আশাক খুবই মার্জিত। মাথার চুল পেকে সাদা চকচক করছে। তবে তার মাথায় যতগুলো চুল আছে আমার মাথায় তার এক-তৃতীয়াংশও নেই।
+
+              আমি আমার সহজাত হাসি দিয়ে বললাম, 'হ্যাঁ নিশ্চয়, নিশ্চয় বসুন'। 
+            </p>
+            <a href="" class="button">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-section img-two"></div>
+          <div class="content">
+            <h2>অনেক দিন পর বন্ধুর দেখা</h2>
+            <p>বাড়িতে আসা হয় খবই কম। কখনও তিন মাস কখনও বা ছ'মাস পরে। তবে সেটি খুব বেশি প্রয়োজন হলে। আর প্রয়োজন না হলে ঈদের সময়।
+              বাড়ি আসলে প্রায় প্রতিদিন বিকেল বেলা সাইকেল নিয়ে ঘুরতে বের হই। কত কিছুই না পরিবর্তন হয়ে যায় সময়ের নিষ্ঠুর খেলায়। কত জন মারা যায়, কত জন বৃদ্ধ হয় আবার কত জন সুন্দর থেকে সুন্দরতর হয়ে ওঠে। 
+            </p>
+            <a href="" class="button">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-section img-three"></div>
+          <div class="content">
+            <h2>সেহরি</h2>
+            <p>ইফতারের পর আম্মার কাছে একটু ফোন করি। সারাদিন তার দিনটা কেমন কাটল, সেহরিতে কি কি পদ ছিল, ইফতার কি দিয়ে করেছে ইত্যাদি ধরণের কথা।
+              গতকাল কথা বলছি এমন সময় রুহান(ভাতিজা, বয়স পাঁচ) পাশ থেকে যেন কি বলছে! আমি আম্মাকে বললাম, ওর কাছে ফোনটা একটু দিতে।ফোন ধরেই রুহান বলল, আমাকে সেহরি খেতে দেয়নি।
+            </p>
+            <a href="" class="button">Read More</a>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:rubayetrabbi28@gmail.com">rubayetrabbi28@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contents">Contents</a></li>
+            <li><a href="#stories">Stories</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Rubayet Rabbi. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
