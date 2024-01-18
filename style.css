@@ -326,7 +326,15 @@ section {
   grid-gap: 25px;
 
 }
-.card{
+.card-1{
+  background-color: #e4d8d8;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0,4);
+}
+.card-2{
+  background-color: #e4d8d8;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0,4);
+}
+.card-3{
   background-color: #e4d8d8;
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0,4);
 }
@@ -334,19 +342,19 @@ section {
   min-height: 250px;
 }
 
-.card .img-one{
+.card-1 .img-one{
   background-image: url(assets/story-diary.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.card .img-two{
+.card-2 .img-two{
   background-image: url(assets/story-friend.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.card .img-three{
+.card-3 .img-three{
   background-image: url(assets/story-seheri.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -375,7 +383,7 @@ section {
   color: #222;
   letter-spacing: 2px;
   display: inline-block;
-  background-color: #d6c954;
+  background-color: #7fd654;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -420,7 +428,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* height: 70vh; */
+  height: 500vh;
 }
 
 .contact-info-upper-container {
