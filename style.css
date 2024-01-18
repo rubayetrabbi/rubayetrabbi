@@ -335,19 +335,19 @@ section {
 }
 
 .card .img-one{
-  background-image: url(assets/story-1.png);
+  background-image: url(assets/story-diary.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .card .img-two{
-  background-image: url(assets/story-2.jpg);
+  background-image: url(assets/story-friend.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .card .img-three{
-  background-image: url(assets/story-3.jpg);
+  background-image: url(assets/story-seheri.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
